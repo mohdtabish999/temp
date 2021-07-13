@@ -19,7 +19,7 @@
  "jwt_source": "https://keycloak-auth-server.apps.tas.uat.lnd.hclcnlabs.com/auth/realms/oauth2-sample/protocol/openid-connect/certs",
  "jwt_identity_base_field": "sub",
  "jwt_client_base_field": "",
- "jwt_policy_field_name": "keycloak2_policyname",
+ "jwt_policy_field_name": "translatepolicy",
   "definition": {
     "location": "header",
     "key": "x-api-version"

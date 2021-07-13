@@ -23,7 +23,7 @@
 			"quota_max": 100,
 			"quota_renewal_rate": 60,
 			"access_rights": {
-				"41433797848f41a558c1573d3e55a300": {
+				"wrapper-service": {
 				"api_name": "Wrapper Service API",
 				"api_id": "wrapper-service",
 				"versions": [
@@ -42,7 +42,7 @@
 			"quota_max": 100,
 			"quota_renewal_rate": 60,
 			"access_rights": {
-				"41433797848f41a558c1573d3e55a400": {
+				"translator-service": {
 				"api_name": "Translate Service API",
 				"api_id": "translator-service",
 				"versions": [
@@ -50,6 +50,8 @@
 				]
 				}
 			},
+		"name": "translatepolicy",
+		"active": true,
 		"org_id": "translator-service",
 		"hmac_enabled": false,
 		"key_expires_in": 0
